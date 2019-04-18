@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dsl.mKAOS:mKAOS xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dsl.kaos="dsl.kaos" xmlns:dsl.mKAOS="dsl.mKAOS">
+  <linkedBy xsi:type="dsl.kaos:Refinement" refines="//@consistsOf.0"/>
+  <linkedBy xsi:type="dsl.kaos:Refinement" refines="//@consistsOf.1"/>
+  <linkedBy xsi:type="dsl.kaos:Refinement" refines="//@consistsOf.3"/>
+  <linkedBy xsi:type="dsl.kaos:Refinement" refines="//@consistsOf.4"/>
+  <linkedBy xsi:type="dsl.kaos:Refinement" refines="//@consistsOf.10"/>
+  <linkedBy xsi:type="dsl.kaos:Refinement" refines="//@consistsOf.7"/>
+  <linkedBy xsi:type="dsl.mKAOS:DependencyLink" source="//@consistsOf.15" target="//@consistsOf.14"/>
+  <linkedBy xsi:type="dsl.mKAOS:DependencyLink" source="//@consistsOf.14" target="//@consistsOf.21"/>
+  <linkedBy xsi:type="dsl.kaos:Refinement" refines="//@consistsOf.15"/>
+  <linkedBy xsi:type="dsl.kaos:Refinement" refines="//@consistsOf.2"/>
+  <linkedBy xsi:type="dsl.mKAOS:CommunicationOutputLink" capability="//@consistsOf.56"/>
+  <linkedBy xsi:type="dsl.mKAOS:EmergeLink" behavior="//@consistsOf.57" capability="//@consistsOf.56"/>
+  <linkedBy xsi:type="dsl.mKAOS:EmergeLink" behavior="//@consistsOf.57" capability="//@consistsOf.58"/>
+  <linkedBy xsi:type="dsl.mKAOS:EmergeLink" behavior="//@consistsOf.57" capability="//@consistsOf.63"/>
+  <linkedBy xsi:type="dsl.mKAOS:CommunicationOutputLink" capability="//@consistsOf.63" entity="//@consistsOf.62"/>
+  <linkedBy xsi:type="dsl.mKAOS:EmergeLink" behavior="//@consistsOf.61" capability="//@consistsOf.63"/>
+  <linkedBy xsi:type="dsl.mKAOS:EmergeLink" behavior="//@consistsOf.61" capability="//@consistsOf.65"/>
+  <linkedBy xsi:type="dsl.mKAOS:EmergeLink" behavior="//@consistsOf.66" capability="//@consistsOf.63"/>
+  <linkedBy xsi:type="dsl.mKAOS:DependencyLink" source="//@consistsOf.3" target="//@consistsOf.10"/>
+  <consistsOf xsi:type="dsl.mKAOS:Mission" name="AVA-SOS satisfaz as necessidades dos stakeholders"/>
+  <consistsOf xsi:type="dsl.mKAOS:Mission" name="AVA-SOS satisfaz as necessidades funcionais" refinedBy="//@linkedBy.0"/>
+  <consistsOf xsi:type="dsl.mKAOS:Mission" name="AVA-SOS satisfaz as necessidades não funcionais" refinedBy="//@linkedBy.0"/>
+  <consistsOf xsi:type="dsl.mKAOS:Mission" name="Estudantes devem aprender tópicos de um curso" refinedBy="//@linkedBy.1"/>
+  <consistsOf xsi:type="dsl.mKAOS:Mission" name="Professores ensinam um novo curso apropriadamente" refinedBy="//@linkedBy.1"/>
+  <consistsOf xsi:type="dsl.mKAOS:Mission" name="Estudantes ingressam no AVA-SOS com sucesso" refinedBy="//@linkedBy.2" assignedTo="//@consistsOf.28"/>
+  <consistsOf xsi:type="dsl.mKAOS:Mission" name="Estudantes ingressam em um curso com sucesso" refinedBy="//@linkedBy.2" assignedTo="//@consistsOf.71"/>
+  <consistsOf xsi:type="dsl.mKAOS:Mission" name="Estudantes participam de aulas online com sucesso" refinedBy="//@linkedBy.2"/>
+  <consistsOf xsi:type="dsl.mKAOS:Mission" name="Estudantes gerenciam suas tarefas com sucesso" refinedBy="//@linkedBy.2" assignedTo="//@consistsOf.72"/>
+  <consistsOf xsi:type="dsl.mKAOS:Mission" name="Professores ingressam no curso com sucesso" refinedBy="//@linkedBy.3" assignedTo="//@consistsOf.27"/>
+  <consistsOf xsi:type="dsl.mKAOS:Mission" name="Cursos são gerenciados com sucesso" refinedBy="//@linkedBy.3"/>
+  <consistsOf xsi:type="dsl.mKAOS:Mission" name="Professores fornecem conteúdo offline com sucesso" refinedBy="//@linkedBy.4" assignedTo="//@consistsOf.71"/>
+  <consistsOf xsi:type="dsl.mKAOS:Mission" name="Professores requerem tarefas com sucesso" refinedBy="//@linkedBy.4" assignedTo="//@consistsOf.72"/>
+  <consistsOf xsi:type="dsl.mKAOS:Mission" name="Notas são atribuídas às tarefas dos estudantes" refinedBy="//@linkedBy.4" assignedTo="//@consistsOf.72"/>
+  <consistsOf xsi:type="dsl.mKAOS:Mission" name="Professores agendam uma aula online com sucesso" refinedBy="//@linkedBy.4" assignedTo="//@consistsOf.71"/>
+  <consistsOf xsi:type="dsl.mKAOS:Mission" name="Professores ensinam em uma aula online com sucesso" refinedBy="//@linkedBy.4"/>
+  <consistsOf xsi:type="dsl.mKAOS:Mission" name="Estudantes formam grupos" refinedBy="//@linkedBy.2" assignedTo="//@consistsOf.29"/>
+  <consistsOf xsi:type="dsl.mKAOS:Mission" name="Estudantes agendam uma reunião do grupo" refinedBy="//@linkedBy.2" assignedTo="//@consistsOf.29"/>
+  <consistsOf xsi:type="dsl.mKAOS:Mission" name="Estudantes participam de uma reunião do grupo" refinedBy="//@linkedBy.2" assignedTo="//@consistsOf.31"/>
+  <consistsOf xsi:type="dsl.mKAOS:Mission" name="Estudantes assistem o professor com sucesso" refinedBy="//@linkedBy.5" assignedTo="//@consistsOf.31"/>
+  <consistsOf xsi:type="dsl.mKAOS:Mission" name="Estudantes enviam e recebem mensagens em tempo real " refinedBy="//@linkedBy.5" assignedTo="//@consistsOf.30"/>
+  <consistsOf xsi:type="dsl.mKAOS:Mission" name="Professores criam cursos com sucesso" refinedBy="//@linkedBy.4" assignedTo="//@consistsOf.71"/>
+  <consistsOf xsi:type="dsl.mKAOS:Mission" name="Áudio e vídeo do professor são transmitidos com sucesso" refinedBy="//@linkedBy.8" assignedTo="//@consistsOf.31"/>
+  <consistsOf xsi:type="dsl.mKAOS:Mission" name="Professores enviam e recebem mensagens em tempo real" refinedBy="//@linkedBy.8" assignedTo="//@consistsOf.30"/>
+  <consistsOf xsi:type="dsl.mKAOS:Mission" name="AVA-SOS é barato" refinedBy="//@linkedBy.9"/>
+  <consistsOf xsi:type="dsl.mKAOS:Mission" name="AVA-SOS é fácil de usar" refinedBy="//@linkedBy.9"/>
+  <consistsOf xsi:type="dsl.mKAOS:Mission" name="AVA-SOS é confiável" refinedBy="//@linkedBy.9"/>
+  <consistsOf xsi:type="dsl.mKAOS:ConstituentSystem" name="Sistema de gerenciamento de professores" capableOf="//@consistsOf.37 //@consistsOf.36 //@consistsOf.35"/>
+  <consistsOf xsi:type="dsl.mKAOS:ConstituentSystem" name="Sistema de gerenciamento de estudantes" capableOf="//@consistsOf.32 //@consistsOf.33 //@consistsOf.34 //@consistsOf.55"/>
+  <consistsOf xsi:type="dsl.mKAOS:ConstituentSystem" name="Sistema de gerenciamento de grupos" capableOf="//@consistsOf.46 //@consistsOf.45 //@consistsOf.44"/>
+  <consistsOf xsi:type="dsl.mKAOS:ConstituentSystem" name="Sistema de aulas online" capableOf="//@consistsOf.47 //@consistsOf.53"/>
+  <consistsOf xsi:type="dsl.mKAOS:ConstituentSystem" name="Sistema de streaming de vídeo em tempo real" capableOf="//@consistsOf.48 //@consistsOf.49"/>
+  <consistsOf xsi:type="dsl.mKAOS:OperationalCapability" name="To insert new student"/>
+  <consistsOf xsi:type="dsl.mKAOS:OperationalCapability" name="To remove a student"/>
+  <consistsOf xsi:type="dsl.mKAOS:OperationalCapability" name="To update a student"/>
+  <consistsOf xsi:type="dsl.mKAOS:OperationalCapability" name="To insert new teacher"/>
+  <consistsOf xsi:type="dsl.mKAOS:OperationalCapability" name="To remove a teacher"/>
+  <consistsOf xsi:type="dsl.mKAOS:OperationalCapability" name="To update a teacher"/>
+  <consistsOf xsi:type="dsl.mKAOS:OperationalCapability" name="To remove a course"/>
+  <consistsOf xsi:type="dsl.mKAOS:OperationalCapability" name="To update a course"/>
+  <consistsOf xsi:type="dsl.mKAOS:OperationalCapability" name="To insert new course"/>
+  <consistsOf xsi:type="dsl.mKAOS:OperationalCapability" name="To schedule an online lesson"/>
+  <consistsOf xsi:type="dsl.mKAOS:OperationalCapability" name="To create offline content section"/>
+  <consistsOf xsi:type="dsl.mKAOS:OperationalCapability" name="To finish an online lesson"/>
+  <consistsOf xsi:type="dsl.mKAOS:OperationalCapability" name="To insert new group"/>
+  <consistsOf xsi:type="dsl.mKAOS:OperationalCapability" name="To remove a group"/>
+  <consistsOf xsi:type="dsl.mKAOS:OperationalCapability" name="To update a group"/>
+  <consistsOf xsi:type="dsl.mKAOS:OperationalCapability" name="To receive message"/>
+  <consistsOf xsi:type="dsl.mKAOS:OperationalCapability" name="To send video streaming"/>
+  <consistsOf xsi:type="dsl.mKAOS:OperationalCapability" name="To receive video streaming"/>
+  <consistsOf xsi:type="dsl.mKAOS:OperationalCapability" name="To upload offline content"/>
+  <consistsOf xsi:type="dsl.mKAOS:OperationalCapability" name="To modify offline content"/>
+  <consistsOf xsi:type="dsl.mKAOS:OperationalCapability" name="To remove offline content"/>
+  <consistsOf xsi:type="dsl.mKAOS:OperationalCapability" name="To start an online lesson"/>
+  <consistsOf xsi:type="dsl.kaos:Entity" name="List of students" inputs="//@consistsOf.56"/>
+  <consistsOf xsi:type="dsl.mKAOS:OperationalCapability" name="To provide list of students" output="//@consistsOf.54"/>
+  <consistsOf xsi:type="dsl.mKAOS:CommunicationalCapability" name="To provide list of students"/>
+  <consistsOf xsi:type="dsl.mKAOS:EmergentBehavior" name="To subscribe students in a course"/>
+  <consistsOf xsi:type="dsl.mKAOS:CommunicationalCapability" name="To subscribe students of a course"/>
+  <consistsOf xsi:type="dsl.mKAOS:OperationalCapability" name="To provide list of courses" output="//@consistsOf.60"/>
+  <consistsOf xsi:type="dsl.kaos:Entity" name="List of courses" inputs="//@consistsOf.58"/>
+  <consistsOf xsi:type="dsl.mKAOS:EmergentBehavior" name="To provide groups of students of a course"/>
+  <consistsOf xsi:type="dsl.kaos:Entity" name="List of students of a course"/>
+  <consistsOf xsi:type="dsl.mKAOS:CommunicationalCapability" name="To provide list of students of a course"/>
+  <consistsOf xsi:type="dsl.kaos:Entity" name="Group of students" inputs="//@consistsOf.44"/>
+  <consistsOf xsi:type="dsl.mKAOS:CommunicationalCapability" name="To group students" output="//@consistsOf.64"/>
+  <consistsOf xsi:type="dsl.mKAOS:EmergentBehavior" name="Teaching an online lesson for students of a course"/>
+  <consistsOf xsi:type="dsl.kaos:Entity" name="Video streaming"/>
+  <consistsOf xsi:type="dsl.mKAOS:CommunicationalCapability" name="To "/>
+  <consistsOf xsi:type="dsl.kaos:Event" name="Start an online lesson"/>
+  <consistsOf xsi:type="dsl.mKAOS:CommunicationalCapability"/>
+  <consistsOf xsi:type="dsl.mKAOS:ConstituentSystem" name="Sistema de gerenciamento de cursos"/>
+  <consistsOf xsi:type="dsl.mKAOS:ConstituentSystem" name="Sistema de gerenciamento de tarefas"/>
+</dsl.mKAOS:mKAOS>
